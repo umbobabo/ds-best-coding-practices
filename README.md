@@ -22,11 +22,7 @@ As a consequence of the above considerations, a set of well defined best practic
 
 ## Table of contents
 
-<<<<<<< HEAD
 ### * [Comments](COMMENTS.md)
-=======
-### * [Comments](https://github.com/umbobabo/ds-best-coding-practices/blob/master/CODE_REVIEW.md)
->>>>>>> 9685cd7c4988324bf7a0ed782001ee1cc78d2648
 ### * PR Process [Discuss if we can reuse this ](https://github.com/EconomistDigitalSolutions/fe-blogs/blob/master/docs/CODE_REVIEW.md)
 
 
