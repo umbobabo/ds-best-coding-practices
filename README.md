@@ -23,6 +23,7 @@ This will also reduce the time spent by senior developers in coaching/tutoring/m
 ## Table of contents
 ### Code
 #### [Comments](COMMENTS.md)
+#### [Tests](TESTS.md)
 ### Processes
 ### [PR reviews](CODE_REVIEW.md)
 
