@@ -23,18 +23,19 @@ As a consequence of the above considerations, a set of well defined best practic
 ## Table of contents
 
 ### * [Comments](COMMENTS.md)
-### * PR Process [Discuss if we can reuse this ](https://github.com/EconomistDigitalSolutions/fe-blogs/blob/master/docs/CODE_REVIEW.md)
-### * Git Workflow: [We use this, it's good for the goal of being open source someday](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
-### * Deployment: CI/CD practices
-### * QA
-### * Monitoring and Logging [Standards we have here](https://docs.google.com/document/d/1gbc-e9Nf51Tzz3rGbLgbQ8jPkr9KozFcVYnYLeCC1Xs/edit?usp=sharing)
+### * PR Process
+### * [Git Workflow](GIT_WORKFLOW.md)
+### * [Deployment: CI/CD practices](DEPLOYMENT.md)
+### * [QA](QA.md)
+### * [Monitoring and Logging](MONITORING_LOGGING.md)
+### * [Site Reliability](SITE_RELIABILITY.md)
+### * [Definition of Done](DEFINITION_OF_DONE.md)
 
 ## Team Best Practices
 
-This would be a list of practices important for each team to define and document for themselves. We can provide some examples, but leave it to teams to define.
+These are practices important for each team to define and document for themselves. These documents provide an overview for the approach and examples of how they've been applied on different teams.
 
-### * Definition of Done
-### * Linting
-### * Local Development
-### * Testing
-### * Dependency Management
+### * [Linting](LINTING.md)
+### * [Testing](TESTING.md)
+### * [Dependency Management](DEPENDENCY_MANAGEMENT.md)
+### * [New Engineer Onboarding Process](ONBOARDING.md)
