@@ -1,0 +1,1 @@
+Write based on: https://jira.economist.com/wiki/display/WP/Definition+of+done
