@@ -6,15 +6,15 @@ The advantage of the Forking Workflow is that contributions can be integrated wi
 
 ## Forking Workflow Overview
 
-With the Forking Workflow every developer has their own private repository instead of one central repo. This means that each developer has two git repositories for a single project: a personal one and a public one.
+With the Forking Workflow every developer has their own private repository (fork) rather than working in a shared one. The developer will need to clone the shared main repository, usually hosted in the organisation account, to be able to open PRs from their personal repo against the main one. This means each developer has at least two git repositories for a single project: their fork and the main reposity.
 
 ## Setting Up Your Fork
 
-When you're ready to collaborate on a project, rather than cloning the project, create a Fork of the project. Github provide a link to create a Fork on the main page of the project's Github Repo. This creates a person version of the repo associated with your account only, where you can control who can push to it.
+When you're ready to collaborate on a project, rather than cloning the project, create a fork of the project. Github provide a link to create a Fork on the main page of the project's Github repo. This creates a personal version of the repo associated with your account only, where you can control who can push to it.
 
-After creating your fork, perform a git clone of the Fork to get a copy onto your local machine. This serves as your private development environment, just like in the other workflows.
+After creating your fork, clone it on your local machine. This serves as your private development environment, just like in other git workflows.
 
-If you want to regularlly pull the latest code from the main project into your Fork, add the project as an additional remote for your local project. 
+It is recommended you regularly pull the latest code from the main project into your fork. To do this, first add the project as an additional remote for your local project. 
 
 `git remote add upstream (upstream-github-url)`
 
@@ -35,6 +35,6 @@ If you've made commits to your local code and want to then incorporate changes i
 
 The Forking Workflow typically follows a branching model. This means that complete feature branches will be purposed for merge into the original project's repository.
 
-For feature development work tied to specific Jira stories, it is recommended to create a branch on your Fork with the Jira ticket number in the branch. This automates integration between Jira and Github for tracking feature progress.
+For feature development work tied to specific Jira stories, it is recommended to create a branch on your fork with the Jira ticket number in the branch. This automates integration between Jira and Github for tracking feature progress.
 
-When your code is ready for review, push the local branch to your Fork. In Github, submit a Pull Request comparing your Fork's branch to the main Repo's master branch. Once the code has gone through the full [Peer Review](CODE_REVIEW.md) process, it will be merged into the main repo's master branch.
+When your code is ready for review, push the local branch to your fork. In Github, submit a Pull Request comparing your fork's branch to the main repo's master branch. Once the code has gone through the full [Peer Review](CODE_REVIEW.md) process, it will be merged into the main repo's master branch.
