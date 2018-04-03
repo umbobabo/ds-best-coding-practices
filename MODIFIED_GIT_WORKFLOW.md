@@ -15,9 +15,21 @@ Gitflow is ideally suited for projects that have a scheduled release cycle.
 
 Instead of a single master branch, this workflow uses two branches to record the history of the project. The master branch stores the official release history, and the develop branch serves as an integration branch for features. It's also convenient to tag all commits in the master branch with a version number.
 
-Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration. But, instead of branching off of master, feature branches use develop as their parent branch. When a feature is complete, it gets merged back into develop. Features should never interact directly with master.
+Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration. But, instead of branching off of master, feature branches use develop as their parent branch. When a feature is complete, it gets merged back into develop by (Submitting a PR)[#####Submitting PR's]. Features should never interact directly with master.
 
-## Hotfixes branches
+#### Hotfix Branches
+Hotfix branches arises from an unplanned state when critical issues in production code needs to be addressed immediately. Hotfix branch is branched off from master and must be merge back into development and master. Note that when hotfix branch is merged into master it becomes a new (hotfix) release that is pushed to production.
 
-Hotfixes branches arises from an unplanned state when critical issues in production code needs to be addressed immediately. Hotfix branch is branched off from master and must be merge back into development and master. Note that when hotfix branch is merged into master it becomes a new (hotfix) release that is pushed to the respective store. Hotfix branch has a name in the form hotfix-<version> where version number represents already released code for which fixes are made.
-The example of a workflow with branches described above is presented in the following diagram.
+#### Release Branches (Optional)
+Once develop has acquired enough features for a release (or a predetermined release date is approaching), you fork / tag a release branch off of develop. Creating this branch starts the next release cycle, so no new features can be added after this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch. Once it's ready to ship, the release branch gets merged into master and tagged with a version number. In addition, it should be merged back into develop, which may have progressed since the release was initiated.
+
+
+#### Commits
+Create small, logical commits over large monolithic changes of codes. Git history is much more clear this way and git tools such as blame and bisect are less useful with large commits. It’s also a good practice to review your own commits before pushing them so unnecessary mistakes are prevented early.
+
+Commit message subject should be short, not very short, informative, self explanatory and when someone look at it after time, it should be clear what has been done.
+
+#### Submitting PR's
+Each pull request has to be reviewed. All review comments should be added to the pull request by reviewer and addressed by developer who created pull request. When all comments are resolved, pull request and its associated feature branch can be merged into development branch.
+
+Refer to [Peer Review](CODE_REVIEW.md) process.
