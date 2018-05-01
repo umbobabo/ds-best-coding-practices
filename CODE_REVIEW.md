@@ -86,3 +86,7 @@ If your story didn't pass QA and go back to development you have to:
   1. Remove the Ready for QA label
   2. Commit changes
   3. Start the process again requiring just a **Core review**
+
+### Enforce reviews
+
+To enforce the review process as a best practice the setting 'Require pull request reviews before merging' in the 'Branch protection' settings of the repo should be always enabled.
