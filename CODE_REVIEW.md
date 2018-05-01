@@ -25,7 +25,8 @@ Be sure you are providing the necessary information to speed-up the PR process a
 
 ### Assign reviewers
 
-PRs need to be **'peer approved'** and **'core approved'**.
+To enforce share knowledge and ideas about the project and the codebase a 2 reviewers process is encoureaged when possible, but not mandatory for small teams. 
+When this is applicable, your PR will need to be **'peer approved'** and **'core approved'**.
 A peer reviewer is a developer with (very approssimatively) a similar amount of skills and the same seniority and knowledge of the product.
 A core reviewer is a developer with more Seniority and a bigger knowledge of the product and of the 'big picture', usually with also wider background of the business requirements.
 
