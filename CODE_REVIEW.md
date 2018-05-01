@@ -76,8 +76,6 @@ The correct usage of labels can also be an effective system to highlight importa
 
 * **DO NOT MERGE**: The PR has some dependecies on other PRs or implementation. The label suggest that if merged, that PR can produce breakages. You should carefully mention and link the related external PRs.
 * **Draft**: The PR is just for sharing idea, POC, proposals, learning purpose...
-* **Changes request**: used by the reviewers to highlight that there is something blocking that prevent approvation
-* **Comments/Question**: used by reviewers to highlight that there are some minor issue in the PR or they have some questions/doubts that need a clarification. 
 
 ### Ready for QA
 
