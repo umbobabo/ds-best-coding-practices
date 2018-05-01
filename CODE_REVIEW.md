@@ -23,6 +23,18 @@ Be sure you are providing the necessary information to speed-up the PR process a
   2. You should provide the right context and background information to help reviewers undestand your implemntation choices, avoided un-necessary subsequent questions ('I used xxx because of xyz...')
   3. Tests plan: You should provide a basic tests plan. This is to communicate to reviewers that you knew how the feature is expected to work and can also help human QA.
 
+### Review the code yourself
+
+Before assigning the PR to reviewers it is good practice to review your own code.
+This can save time to you and to the reviewers too, avoiding useless back and forth for something that you could have spotted reading your code in github.
+Consider the following:
+
+1. Are there ways to simplify the implemented solution while still meeting the defined requirements?
+2. Are best practices being applied?
+3. Ensure code is well commented and variable naming is easy to understand. 
+4. Ask clarifying questions on design decisions to better understand the engineers approach.
+5. Check team standards such as logging, environment variables, library usage, and unit testing.
+
 ### Assign reviewers
 
 To enforce share knowledge and ideas about the project and the codebase a 2 reviewers process is encoureaged when possible, but not mandatory for small teams. 
