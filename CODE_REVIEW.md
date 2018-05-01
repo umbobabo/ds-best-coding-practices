@@ -45,6 +45,17 @@ A core reviewer is a developer with more Seniority and a bigger knowledge of the
 Once you are ready, you should assign a **peer reviewer** and contact him/her directly or mentioning in the appropriate PR channel.
 If he/she is busy he/she can ask you to find some else available. 
 On the meantime you should also label the PR **'Waiting for review'**.
+To assign reviewers use the relative github feature.
+
+### Incorporating Feedback
+
+Respond to all PR comments on the original PR and commit updates to the original PR.
+Open a new PR should always be avoided cause it removes the historical discussion/comments.
+Use a new commit for all updates, don’t rebase or force changes and this can cause issues for those reviewing your PR and reduces visibility in the review process.
+Feel free to push back on suggestions with clarification of your reasoning.
+Ensure the suggested changes don’t move out of scope of the original ticket. Flag any potential future stories or refactoring tasks to the PO and Scrum Master.
+
+### Get the approval
 
 When your **peer reviewer** is happy, he/she have to put the label **'Peer approved'** and you can ask a core reviewer to proceed with his/her review.
 
@@ -65,7 +76,6 @@ The correct usage of labels can also be an effective system to highlight importa
 
 * **DO NOT MERGE**: The PR has some dependecies on other PRs or implementation. The label suggest that if merged, that PR can produce breakages. You should carefully mention and link the related external PRs.
 * **Draft**: The PR is just for sharing idea, POC, proposals, learning purpose...
-* **BUILDPR** (If your team can deploy PR environments for QA or demo purposes): only QA should use this when they are ready for human QA a feature in the PR environment. You can use this label if you want to test your PR in a Stage environment or you have to Demo your PR to external stakeholders/developers.
 * **Changes request**: used by the reviewers to highlight that there is something blocking that prevent approvation
 * **Comments/Question**: used by reviewers to highlight that there are some minor issue in the PR or they have some questions/doubts that need a clarification. 
 
