@@ -21,10 +21,21 @@ As a consequence of the above considerations, a set of well defined best practic
 This will also reduce the time spent by senior developers in coaching/tutoring/mentoring.
 
 ## Table of contents
-### Code
-#### [Comments](COMMENTS.md)
-#### [Tests](TESTS.md)
-### Processes
-### [PR reviews](CODE_REVIEW.md)
 
+### * [Comments](COMMENTS.md)
+### * PR Process
+### * [Git Workflow](GIT_WORKFLOW.md)
+### * [Deployment: CI/CD practices](DEPLOYMENT.md)
+### * [QA](QA.md)
+### * [Monitoring and Logging](MONITORING_LOGGING.md)
+### * [Site Reliability](SITE_RELIABILITY.md)
+### * [Definition of Done](DEFINITION_OF_DONE.md)
 
+## Team Best Practices
+
+These are practices important for each team to define and document for themselves. These documents provide an overview for the approach and examples of how they've been applied on different teams.
+
+### * [Linting](LINTING.md)
+### * [Testing](TESTING.md)
+### * [Dependency Management](DEPENDENCY_MANAGEMENT.md)
+### * [New Engineer Onboarding Process](ONBOARDING.md)
