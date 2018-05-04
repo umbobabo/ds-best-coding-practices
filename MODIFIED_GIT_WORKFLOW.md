@@ -20,10 +20,6 @@ Each new feature should reside in its own branch, which can be pushed to the cen
 #### Hotfix Branches
 Hotfix branches arises from an unplanned state when critical issues in production code needs to be addressed immediately. Hotfix branch is branched off from master and must be merge back into development and master. Note that when hotfix branch is merged into master it becomes a new (hotfix) release that is pushed to production.
 
-#### Release Branches (Optional)
-Once develop has acquired enough features for a release (or a predetermined release date is approaching), you fork / tag a release branch off of develop. Creating this branch starts the next release cycle, so no new features can be added after this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch. Once it's ready to ship, the release branch gets merged into master and tagged with a version number. In addition, it should be merged back into develop, which may have progressed since the release was initiated.
-
-
 #### Commits
 Create small, logical commits over large monolithic changes of codes. Git history is much more clear this way and git tools such as blame and bisect are less useful with large commits. It’s also a good practice to review your own commits before pushing them so unnecessary mistakes are prevented early.
 
