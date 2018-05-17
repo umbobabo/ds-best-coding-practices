@@ -81,6 +81,8 @@ Time Based Logs
 
 It is recommended that standard, open-source libraries should be implemented on a language level for use across the Economist digital platforms. Based on the programming language and framework, a standard library can be used or a custom one can be developed. These libraries should be relatively plug and play, align to the standards above, and reduce code replication.
 
+Many logging libraries offer Opportunistic Logging, and this is generally recommended if available. Opportunistic Logging stores all logs related to an event in memory for a set period of time and if an error occurs, sends all logs from the events that happened before the error. This gives engineers more insight into the steps that occurred to trigger the error without cluttering logs with a full history for every event. An example of this approach can be found in the [PHP Monolog library](https://symfony.com/doc/current/logging.html#handlers-that-modify-log-entries).
+
 In the case of third-party tools and systems that do not allow implementation of standard logging libraries, a logging aggregation tool should be developed as an intermediary between the service and the centralized log parsing system.
 
 
