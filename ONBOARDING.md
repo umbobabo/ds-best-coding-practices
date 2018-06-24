@@ -1,6 +1,6 @@
 #Onboarding
 
-"Best thing to do with the new employees is to size them up with a long stare." - The IT Crowd S1E1
+"Best thing to do with the new developers is to size them up with a long stare." - The IT Crowd S1E1
 
 Some of the points here are valid for new hires on the team or devs switching between projects.
 
