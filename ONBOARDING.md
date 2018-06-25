@@ -23,21 +23,21 @@ For new hires lets help them get through the administrative process. Take them a
 
 Make sure they are invited to the agile ceremonies, slack teams and if any email groups they need to be added to.
 
-# Inquisitiveness
+## Inquisitiveness
 - Given to inquiry, research, or asking questions; eager for knowledge; intellectually curious: an inquisitive mind. unduly or inappropriately curious; prying.
 
 Every developer wants to learn. Get them on top of the project, go through the processes, share the documentation you have or not have. Get them a brain dump of code, documentation and processes. A developer is inquisitive he wants to figure things out as he works on the project. Don't drop a bomb or if you do give them some space to be inquisitive to understand the system and let them slither through the complexities.
 
 No question is a bad question, don't spoon feed them the solution let them question and get answers of you.
 
-# Humility
+## Humility
 - The quality of having a modest or low view of one's importance.
 
 A new person on the team is not an extra resource to help but an extra heart to pump blood into the system. Introduce them on processes but be open to things that may not be right. They are coming with new knowledge new ways of working, they might bring better quality into the system.
 
 Make them feel empowered, let them criticise things they don't like. Let them be the drivers of change thats how leaders are born.
 
-# GET SHIT DONE
+## GET SHIT DONE
 - ACCOMPLISHMENT
 
 All developers want to GET SHIT DONE, which is the most important thing for them.
