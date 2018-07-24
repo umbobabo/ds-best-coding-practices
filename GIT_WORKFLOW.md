@@ -14,7 +14,7 @@ When you're ready to collaborate on a project, rather than cloning the project, 
 
 After creating your fork, clone it on your local machine. This serves as your private development environment, just like in other git workflows.
 
-It is recommended you regularly pull the latest code from the main project into your fork. To do this, first add the project as an additional remote for your local project. 
+It is recommended you regularly pull the latest code from the main project into your fork. To do this, first add the project as an additional remote for your local project.
 
 `git remote add upstream (upstream-github-url)`
 
